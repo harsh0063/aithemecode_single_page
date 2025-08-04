@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
   "dependencies": {
     "@iconify/react": "^6.0.0",
     "@reduxjs/toolkit": "^2.8.2",
@@ -31,7 +30,7 @@
     "globals": "^16.2.0",
     "vite": "^7.0.0"
   },
-  "homepage": "https://harsh0063.github.io/aithemecode_single_page",
+  "homepage": "https://github.com/harsh0063/aithemecode_single_page",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
