@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  /* font-family: 'Inter'; */
+  border-color: #E5E7EB;
+  font-family: Poppins;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+:root {
+  --blue: #ff6c2f;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.bg_gradiant {
+  background: linear-gradient(92.79deg, #5484FF 0.12%, #642CDC 99.88%);
+}
+
+.line-through__1::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #ee0000;
+  top: 50%;
+  left: 0;
+  transform: rotate(10deg);
+
+}
+
+.line-through__1::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #ee0000;
+  top: 50%;
+  left: 0;
+  transform: rotate(-10deg);
+
+}
+
+@media (max-width: 578px) {
+
+  .line-through__1::before,
+  .line-through__1::after {
+    height: 1px;
+  }
+}
+
+.custom-marker li::marker {
+  font-size: 10px;
+  width: 6px;
+  /* shrink the bullet */
+  height: 6px;
+  /* optional: bullet color */
+}
+
+.bg_gradiant__1 {
+  background: linear-gradient(180deg, #F2F0FE 0%, #FFFFFF 50%, #FFFFFF 100%);
+
+}
+
+.swiper {
+  padding-bottom: 50px;
+}
+
+.swiper-pagination {
+  margin-top: -30px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination-bullet-active {
+  background: transparent !important;
+  border: 2px solid #642CDC;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #642CDC;
+  opacity: 1;
+
+}
